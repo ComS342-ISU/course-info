@@ -1,18 +1,17 @@
 Computer Science 342
 ====================
 
-Study of concepts in programming languages and major
-programming paradigms, especially functional programming. Special emphasis on
-design tradeoffs that enable students to make sound choices of programming
-languages for a given software development task. Programming projects.
-Nonmajor graduate credit.
+Study of concepts in programming languages and major programming paradigms,
+especially functional programming. Special emphasis on design tradeoffs that
+enable students to make sound choices of programming languages for a given
+software development task. Programming projects.  Nonmajor graduate credit.
 
 ## About the Class
 
 ### Instructor
 [Hua Ming][hua], hming@iastate.edu
 
-#### Office Hours
+**Office Hours:**
 
 * TBD
 
@@ -25,13 +24,13 @@ Nonmajor graduate credit.
 
 Lorand Szakacs, lorand@iastate.edu
 
-#### Office Hours
+**Office Hours**
 
 * TBD
 
 Josh Davis, joshuad@iastate.edu
 
-#### Office Hours:
+**Office Hours:**
 
 * TBD
 
