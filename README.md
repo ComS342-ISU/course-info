@@ -53,7 +53,8 @@ Josh Davis, joshuad@iastate.edu
 1. [Structure and Interpretation of Computer Programs][sicp] by Harold Abelson &
    Gerald Sussman. [Amazon](http://amzn.com/0262510871)
 
-SICP is available completely online for free.
+SICP is available completely online for free:
+[http://mitpress.mit.edu/sicp/full-text/book/book.html](http://mitpress.mit.edu/sicp/full-text/book/book.html)
 
 [hua]: http://info.iastate.edu/individuals/info/149635/Ming-Hua
 [schemer]: http://www.ccs.neu.edu/home/matthias/BTLS/
