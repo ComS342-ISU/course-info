@@ -20,6 +20,11 @@ software development task. Programming projects.  Nonmajor graduate credit.
 * **Meeting Time:** TR 2:10 - 3:30pm
 * **Location:** Gilman 1104
 
+#### Recitations
+
+* Wednesdays at 9am in Gilman 1312
+* Wednesdays at 4:10pm in Gilman 0312
+
 ### Teacher's Assistants
 
 Lorand Szakacs, lorand@iastate.edu
@@ -33,13 +38,6 @@ Josh Davis, joshuad@iastate.edu
 **Office Hours:**
 
 * TBD
-
-### Additional Details
-
-#### Recitations
-
-* Wednesdays at 9am in Gilman 1312
-* Wednesdays at 4:10pm in Gilman 0312
 
 ### Textbooks
 
