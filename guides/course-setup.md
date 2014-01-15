@@ -4,6 +4,17 @@ Course Setup
 This will guide you through understanding how we will be using Git & GitHub for
 this course.
 
+## Contents
+
+- [Motivation](#motivation)
+- [Learning Git](#learning-git)
+- [Setting up GitHub](#setting-up-github)
+- [Setting up Git](#setting-up-git)
+- [Getting Newly Released Homework](#getting-newly-released-homework)
+- [Submitting Your Homework](#submitting-your-homework)
+- [Word of Caution](#word-of-caution)
+- [Help!](#help)
+
 ## Motivation
 
 The motivation for using Git and GitHub for ComS 342 has two parts.
@@ -182,6 +193,59 @@ the last section.
 
 3. If you've followed the instructions in each homework, you should have no
    merge conflicts and everything should be peachy.
+
+## Submitting Your Homework
+
+The submission of your homework should be done by the date and time the homework
+is due.
+
+The criteria for your homework being submitted on time is that your code must be
+**pushed** by the date and time. This means that if one of the TAs or the
+instructor were to open up GitHub, they would be able to see your solutions on
+the GitHub web page.
+
+Just because your code has been commited on your local machine, that doens't
+mean that it has been **submitted**; it needs to be on GitHub.
+
+Here are a few guideline steps for a process of submitting your solutions:
+
+1. Look at your current repository status.
+
+   ```bash
+   $ git status
+   ```
+
+2. Add your solutions (if they aren't already added and commited).
+
+   ```bash
+        $ git add my-solutions/
+   ```
+
+3. Commit your solutions.
+
+   ```bash
+       $ git commit
+   ```
+
+   Enter your commit message and then save and exit.
+
+4. This is the most important part: **push** your solutions to GitHub.
+
+   ```bash
+       $ git push origin master
+   ```
+
+   Or, just `git push` for short.
+
+5. The last thing that we strongly recommend you do is to go to the
+   [ComS342-ISU](https://github.com/ComS342-ISU) organization page on GitHub to
+   make sure that we can see your solutions.
+
+   Just navigate to your repository and check that your latest commits are on
+   GitHub.
+
+6. The go and eat some cinnamon rolls; you've finished the homework
+   assignment.
 
 ## Word of Caution
 
