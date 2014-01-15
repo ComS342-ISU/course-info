@@ -13,7 +13,8 @@ software development task. Programming projects.  Nonmajor graduate credit.
 
 **Office Hours:**
 
-* TBD
+* **Location:** B20 Atanasoff Hall
+* **Time:** TBD
 
 #### Lecture
 
