@@ -1,6 +1,9 @@
 Course Setup
 ============
 
+This will guide you through understanding how we will be using Git & GitHub for
+this course.
+
 ## Motivation
 
 The motivation for using Git and GitHub for ComS 342 has two parts.
