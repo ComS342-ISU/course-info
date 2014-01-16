@@ -133,6 +133,27 @@ the previous section.
 
    But substitute in your own NetID of course.
 
+   If you have an error that looks like the following:
+   
+   ```
+      Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+   ```
+   
+   Follow this answer on StackOverflow to see if you can fix it:
+   [http://stackoverflow.com/a/2432799](http://stackoverflow.com/a/2432799)
+   
+   For reference, your final `git remote -v` should look like following when its
+   setup correctly:
+   
+   
+   ```bash
+        $ git remote -v
+            upstream git@github.com:ComS342-ISU/homework.git (fetch)
+            upstream git@github.com:ComS342-ISU/homework.git (push)
+            origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (fetch)
+            origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (push)
+   ```
+   
 4. Let's test it out by doing a push of your master branch to GitHub by issuing
    the following:
 
