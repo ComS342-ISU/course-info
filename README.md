@@ -9,12 +9,12 @@ software development task. Programming projects.  Nonmajor graduate credit.
 ## About the Class
 
 ### Instructor
-[Hua Ming][hua], hming@iastate.edu
+Hua Ming, hming@iastate.edu
 
 **Office Hours:**
 
 * **Location:** B20 Atanasoff Hall
-* **Time:** TBD
+* **Time:** Tuesday 4-5pm
 
 #### Lecture
 
@@ -23,8 +23,8 @@ software development task. Programming projects.  Nonmajor graduate credit.
 
 #### Recitations
 
-* Wednesdays at 9am in Gilman 1312
-* Wednesdays at 4:10pm in Gilman 0312
+* Wednesday at 9am in Gilman 1312
+* Wednesday at 4:10pm in Gilman 0312
 
 ### Teacher's Assistants
 
@@ -32,13 +32,20 @@ Lorand Szakacs, lorand@iastate.edu
 
 **Office Hours**
 
-* TBD
+* Monday at 2-3pm in Pearson 0145
+* Friday at 2-3:30pm in Pearson 0145
 
 Josh Davis, joshuad@iastate.edu
 
 **Office Hours:**
 
-* TBD
+* Tues & Thurs at 11am - noon in Pearson 0145
+
+Ru He, rhe@iastate.edu
+
+** Office Hours:**
+
+* Tuesday 4-5pm in B22 Atanasoff
 
 ### Textbooks
 
@@ -57,7 +64,6 @@ Josh Davis, joshuad@iastate.edu
 SICP is available completely online for free:
 [http://mitpress.mit.edu/sicp/full-text/book/book.html](http://mitpress.mit.edu/sicp/full-text/book/book.html)
 
-[hua]: http://info.iastate.edu/individuals/info/149635/Ming-Hua
 [schemer]: http://www.ccs.neu.edu/home/matthias/BTLS/
 [sicp]: http://mitpress.mit.edu/sicp/
 [eopl]: http://www.eopl3.com/
