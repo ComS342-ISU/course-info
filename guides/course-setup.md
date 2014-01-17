@@ -40,7 +40,7 @@ There are numerous guides on using Git that are available. They range from being
 interactive ones to just text ones. Find one that works and experiment; making
 mistakes and fixing them is a great way to learn. Here is a link to resources
 that GitHub suggests:
-[https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github)
+[https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github][resources]
 
 ## Setting Up GitHub
 
@@ -48,10 +48,10 @@ Assuming you have a solid enough understanding of Git, it's time to get started
 with GitHub.
 
 1. If you don't already have an account, sign up for one here:
-   [https://github.com/join](https://github.com/join)
+   [https://github.com/join][join].
 
 2. Next you need to join the GitHub Organization that we've created for the
-   course: [ComS342-ISU](https://github.com/ComS342-ISU)
+   course: [ComS342-ISU][cs342]
 
    To join it, go to the [ComS 342 Registration](http://cs342.joshldavis.com/)
    page and click the **Sign in with GitHub** button.
@@ -65,9 +65,8 @@ with GitHub.
 4. If for whatever reason you can't join the organization, contact Josh Davis,
    joshuad@iastate.edu and let him know.
 
-5. You should now be apart of the ComS 342 Organization and should have access
-   to a few different repositories here:
-   [https://github.com/organizations/ComS342-ISU](https://github.com/organizations/ComS342-ISU)
+5. You should now be apart of the [ComS 342 Organization][cs342] and should have access
+   to a few different repositories.
 
    You should also now have a repository setup just for your homework solutions.
    This should be located in the ComS342-ISU organization and be called
@@ -87,78 +86,90 @@ the previous section.
    issuing the following commands onto the command line:
 
    ```bash
-        $ git clone git@github.com:ComS342-ISU/homework.git
+    $ git clone git@github.com:ComS342-ISU/homework.git
    ```
 
    This will make a complete replica of the homework repository locally. Now we
    are going to change it to point to your personal repository that was created
    for you in the previous section.
 
+   If you get an error that looks like:
+
+   ```bash
+    Cloning into 'homework'...
+    Permission denied (publickey).
+    fatal: Could not read from remote repository.
+    ```
+
+    More likely the cause is that you just haven't finished setting up your
+    GitHub account. You just need to [setup an SSH key][ssh-key] to allow
+    pushing and pulling over SSH.
+
    Change your working path to your newly cloned repository:
 
    ```bash
-        $ cd homework/
+    $ cd homework/
    ```
 
 2. By default the remote called `origin` is set to the location that you cloned
    the repository from. You should see the following:
 
    ```bash
-        $ git remote -v
-            origin git@github.com:ComS342-ISU/homework.git (fetch)
-            origin git@github.com:ComS342-ISU/homework.git (push)
+    $ git remote -v
+        origin git@github.com:ComS342-ISU/homework.git (fetch)
+        origin git@github.com:ComS342-ISU/homework.git (push)
    ```
 
    We don't want that remote to be the origin, instead, we want to change it to
    point to your repository. To do that, issue the following command:
 
    ```bash
-        $ git remote rename origin upstream
+    $ git remote rename origin upstream
    ```
 
    And now you should see the following:
 
    ```bash
-        $ git remote -v
-            upstream git@github.com:ComS342-ISU/homework.git (fetch)
-            upstream git@github.com:ComS342-ISU/homework.git (push)
+    $ git remote -v
+        upstream git@github.com:ComS342-ISU/homework.git (fetch)
+        upstream git@github.com:ComS342-ISU/homework.git (push)
    ```
 
 3. Lastly we need to give your repository a new `origin` since it is lacking
    one. Issue the following but substituting your GitHub username in place:
 
    ```bash
-        $ git remote add origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git
+    $ git remote add origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git
    ```
 
    But substitute in your own NetID of course.
 
    If you have an error that looks like the following:
-   
+
    ```
-      Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+  Could not rename config section 'remote.[old name]' to 'remote.[new name]'
    ```
-   
+
    Follow this answer on StackOverflow to see if you can fix it:
    [http://stackoverflow.com/a/2432799](http://stackoverflow.com/a/2432799)
-   
+
    For reference, your final `git remote -v` should look like following when its
    setup correctly:
-   
-   
+
+
    ```bash
-        $ git remote -v
-            upstream git@github.com:ComS342-ISU/homework.git (fetch)
-            upstream git@github.com:ComS342-ISU/homework.git (push)
-            origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (fetch)
-            origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (push)
+    $ git remote -v
+        upstream git@github.com:ComS342-ISU/homework.git (fetch)
+        upstream git@github.com:ComS342-ISU/homework.git (push)
+        origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (fetch)
+        origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git (push)
    ```
-   
+
 4. Let's test it out by doing a push of your master branch to GitHub by issuing
    the following:
 
    ```bash
-        $ git push -u origin master
+    $ git push -u origin master
    ```
 
    You should see something like the following:
@@ -170,7 +181,6 @@ the previous section.
     Writing objects: 100% (3/3), 294 bytes | 0 bytes/s, done.
     Total 3 (delta 2), reused 0 (delta 0)
     To git@github.com:ComS342-ISU/hw-answers-joshuad.git   f726472..545a4f0  master -> master
-
    ```
 
 5. That last command was a bit special and only needs to be ran the first time
@@ -178,7 +188,7 @@ the previous section.
    push` without the arguments. Try it and you should get the following:
 
    ```bash
-        $ git push
+    $ git push
           Everything up-to-date
    ```
 
@@ -239,13 +249,13 @@ Here are a few guideline steps for a process of submitting your solutions:
 2. Add your solutions (if they aren't already added and commited).
 
    ```bash
-        $ git add my-solutions/
+    $ git add my-solutions/
    ```
 
 3. Commit your solutions.
 
    ```bash
-       $ git commit
+   $ git commit
    ```
 
    Enter your commit message and then save and exit.
@@ -253,13 +263,13 @@ Here are a few guideline steps for a process of submitting your solutions:
 4. This is the most important part: **push** your solutions to GitHub.
 
    ```bash
-       $ git push origin master
+   $ git push origin master
    ```
 
    Or, just `git push` for short.
 
 5. The last thing that we strongly recommend you do is to go to the
-   [ComS342-ISU](https://github.com/ComS342-ISU) organization page on GitHub to
+   [ComS342-ISU][cs342] organization page on GitHub to
    make sure that we can see your solutions.
 
    Just navigate to your repository and check that your latest commits are on
@@ -281,4 +291,10 @@ want us to see matches up with what you expect.
 
 If at any point you need help with setting all this up. Feel free to reach out
 to one of the TAs or instructor. Their contact information can be found in the
-[syllabus](https://github.com/ComS342-ISU/course-info/blob/master/README.md).
+[syllabus][syllabus].
+
+[join]: https://github.com/join
+[resources]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
+[cs342]: https://github.com/ComS342-ISU
+[syllabus]: https://github.com/ComS342-ISU/course-info/blob/master/README.md
+[ssh-key]: https://help.github.com/articles/generating-ssh-keys
