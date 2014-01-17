@@ -28,22 +28,28 @@ Hua Ming, hming@iastate.edu
 
 ### Teacher's Assistants
 
-Lorand Szakacs, lorand@iastate.edu
+#### Lorand Szakacs
+
+lorand@iastate.edu
 
 **Office Hours**
 
 * Monday at 2-3pm in Pearson 0145
 * Friday at 2-3:30pm in Pearson 0145
 
-Josh Davis, joshuad@iastate.edu
+#### Josh Davis
+
+joshuad@iastate.edu
 
 **Office Hours:**
 
 * Tues & Thurs at 11am - noon in Pearson 0145
 
-Ru He, rhe@iastate.edu
+#### Ru He
 
-** Office Hours:**
+rhe@iastate.edu
+
+**Office Hours:**
 
 * Tuesday 4-5pm in B22 Atanasoff
 
