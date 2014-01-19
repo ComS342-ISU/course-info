@@ -150,8 +150,21 @@ the previous section.
   Could not rename config section 'remote.[old name]' to 'remote.[new name]'
    ```
 
-   Follow this answer on StackOverflow to see if you can fix it:
-   [http://stackoverflow.com/a/2432799](http://stackoverflow.com/a/2432799)
+   Or this error:
+   
+   ```
+   fatal: remote origin already exists.
+   ```
+   
+   This appears to happen to some depending on the version of Git they are using. To fix it,
+   just issue the following command:
+   
+   ```bash
+   $ git remote set-url origin git@github.com:ComS342-ISU/hw-answers-<NetID>.git
+   ```
+
+   This solution was found from [StackOverflow](http://stackoverflow.com/a/2432799) thanks to
+   [Cassidy Williams](https://github.com/cassidoo).
 
    For reference, your final `git remote -v` should look like following when its
    setup correctly:
