@@ -147,7 +147,7 @@ the previous section.
    If you have an error that looks like the following:
 
    ```
-  Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+   Could not rename config section 'remote.[old name]' to 'remote.[new name]'
    ```
 
    Or this error:
